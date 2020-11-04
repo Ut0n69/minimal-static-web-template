@@ -1,0 +1,16 @@
+{
+  "name": "minimal-static-web-template",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "browser-sync start --server 'public' --files '**/*'",
+    "lint": "eslint '**/*.js'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  }
+}
